@@ -1,23 +1,25 @@
 import React from 'react'
 import './Home.css';
+import { Link } from "react-router-dom";
 function Home() {
     return (
         <div className="home">
             <h1>Homepage</h1>
 
-            <div classNme="home_header">
+            <div className="home_header">
                 <div className="home_headerLeft">
-                    {/* Link */}
-                    {/* Link */}
+                    <Link to='/about'>About</Link>
+                    <Link to='/store'>Store</Link>
+                    
                 </div>
                 <div className="home_headerRight">
-                    {/* Link */}
-                    {/* Link */}
+                    <Link to='/gmail'>Gmail</Link>
+                    <Link to='/images'>Images</Link>
                     {/* Icon */}
                     {/* Avatar */}
                 </div>
             </div>
-            <div classNme="home_body">
+            <div className="home_body">
                 
                 </div>
         </div>
