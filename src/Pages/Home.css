@@ -27,3 +27,13 @@
 .home_headerRight > .MuiSvgIcon-root{
     margin-right: 20px;
 }
+.home_body{
+    flex:1;
+    display:flex;
+    margin-top:10%;
+    flex-direction: column;
+}
+.home_body >img{
+    height:100px;
+    object-fit:contain;
+}
