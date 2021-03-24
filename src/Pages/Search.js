@@ -5,9 +5,11 @@ import MicIcon from "@material-ui/icons/Mic";
 import {Button} from "@material-ui/core";
 function Search() {
     const [input, setInput] = useState("");
-    // const search =e =>{
-    //     e.preventDefault();
-    // }
+
+    const search = (e) =>{
+        e.preventDefault();
+        console.log("hit");
+    }
     return (
         <div className='search'>
             <div className='search_input'>
@@ -17,7 +19,7 @@ function Search() {
                 
             </div>
             <div className="search_buttons">
-                <Button onClick={e => e.preventDefault()} variant="outlined">Google Search</Button>
+                <Button onClick={search} variant="outlined">Google Search</Button>
                 <Button variant="outlined">I'm Feeling Lucky</Button>
 
             </div>
