@@ -13,7 +13,7 @@ const reducer = (state, action) => {
     console.log(action);
     // inside the data layer, reducer's job is to liste for any dispatched actions
     switch(action.type){
-        case actionTypes.SET_SEARCH_TERM;
+        case actionTypes.SET_SEARCH_TERM:
         return {
             // it will return what the new data layer will look like
             
@@ -25,5 +25,5 @@ const reducer = (state, action) => {
         default:
             return state;
     }
-}
+};
 export default reducer;
