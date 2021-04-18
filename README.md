@@ -1,6 +1,6 @@
 # Google- Clone
 #### Recently completed building "Google clone" using Context API, Material UI and React Router. I have used "Google Custom Search API" for showing search results on the search page.
-Live demo: https://nancyjain0631.github.io/Google-clone/
+Live demo: https://clone-cfa26.web.app/
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
